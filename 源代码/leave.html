@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <link rel="stylesheet" href="./css/page5.css">
+</head>
+<body>
+    <nav>
+        
+        <div class="naver_1">
+            <ul>
+                <li><a href="./index.html"><span>首页</span></a></li>
+                <li><a href="./hobbies.html"><span>我的爱好</span></a></li>
+                <li><a href="./photo.html"><span>相册</span></a></li>
+                <li><a href="./vitae.html"><span>个人简历</span></a></li>
+                <li><a href="./leave.html"><span>留言</span></a></li>
+           </ul>
+        </div>
+    </nav>
+
+    <form action="">
+        <div class="tableRow">
+            <p class="heading"> 详细信息 </p>
+            <p></p>
+        </div>
+        <div class="tableRow">
+            <p> <span>*</span>姓名: </p>
+            <p> <input type="text" name="name" value="" placeholder="张三" required> </p>
+        </div>
+        <div class="tableRow"> 
+            <p> <span>*</span>性别: </p>
+            <p>
+                <input type="radio" name="sex" value="男"> 男<br>
+                <input type="radio" name="sex" value="女" checked> 女
+                
+            </p>
+        </div>
+        <div class="tableRow">
+            <p> <span>*</span>年龄: </p>
+            <p> <input type="number" name="age" min="1" max="30"> </p>
+        </div>
+        <div class="tableRow">
+            <p> <span>*</span>联系方式: </p>
+            <p> <input type="text" name="phonenumber" value="" placeholder="1392279xxxx" required> </p>
+        </div>
+        <div class="tableRow">
+            <p>
+                <span>*</span>
+              选择你的地区:
+            </p>
+            <p>
+                <select name="地区">
+                  <option value="河北省">河北省</option>
+                  <option value="河南省">河南省</option>
+                  <option value="湖北省">湖北省</option>
+                  <option value="湖南省">湖南省</option>
+                </select>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p> <span>*</span>详细地址: </p>
+            <p> <input type="text" name="address" value="" placeholder="xx省xx市xx区xx街道xxxx" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> <span>*</span>您的建议: </p>
+            <p>
+                <textarea name="comments"></textarea>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p></p>
+            <p> <input type="submit" value="提交"> </p>
+        </div>
+    
+    </form>
+
+    <footer>
+        &copy; Designed and maintained by 张东旭
+    </footer>
+    
+</body>
+</html>

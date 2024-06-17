@@ -1,0 +1,140 @@
+body{
+    background-image: url(../images/微信图片_20240614163501.jpg);
+    opacity: 0.9; /* 设置背景图片的透明度 */
+    /* 设置背景图片的位置和大小 */
+    background-size: cover; /* 图片填充整个背景 */
+}
+
+
+header#top{
+    height: 250px;
+    background-image: url(../images/微信图片_20240604192425.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: center;
+    background-size: 100% 100%;
+    display: flex;/* 使用弹性布局 */
+    align-items: center;/* 垂直居中头部内容 */
+    justify-content: center;/* 水平居中头部内容 */
+
+}
+h1{
+    color: rgb(250, 249, 249);
+    font-size: 300%;
+    font-style: italic;/* 标题文字为斜体 */
+}
+
+nav{
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(241, 41, 108);
+}
+.naver_1{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ul{
+    margin-top: 0px;
+    padding-inline-start: 0%;
+}
+.naver_1>ul>li{
+    float: left;/* 左浮动 */
+    list-style: none;/* 去除列表项的默认样式 */
+    text-align: center;/* 文字居中显示 */
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 黑体;/* 字体为黑体 */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul>li>a:active{
+    color: aqua;/* 导航链接在活动状态下的文字颜色为浅蓝色 */
+}
+ul>li:hover{
+    background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
+}
+
+div#home{
+    margin-top: 20px;
+    border-color: rgb(138, 70, 239);
+    border-width: 5px;
+    border-style: dotted;/* 边框样式为点状 */
+    border-radius: 15px;/* 边框圆角为15像素 */
+    width: 1200px;
+    margin-left: auto;/* 左侧自动外边距为自动，实现居中 */
+    margin-right: auto; /* 右侧自动外边距为自动，实现居中 */
+    height: 800px;
+}
+.part{
+    padding: 20px;
+    overflow: hidden;/* 溢出内容隐藏 */
+    height: 350px;
+}
+#title{
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+#p1{
+    background-image: url(../images/ph1.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+#p2{
+    background-image: url(../images/ph2.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+#p3{
+    background-image: url(../images/ph3.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+#p4{
+    background-image: url(../images/ph4.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+#p5{
+    background-image: url(../images/ph5.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+#p6{
+    background-image: url(../images/ph6.jpg);
+    background-size: cover;/* 图片填充整个背景 */
+    width: 350px;
+    height: 250px;
+    float: left;/* 左浮动 */
+    margin: 15px;
+}
+
+footer {
+    color:   #7083f3 ;
+    text-align:       center;/* 文本内容居中对齐 */
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;/* 字体大小为当前字体大小的90% */
+}

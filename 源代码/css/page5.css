@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/微信图片_20240614163501.jpg);
+    opacity: 0.9; /* 设置背景图片的透明度 */
+    /* 设置背景图片的位置和大小 */
+    background-size: cover; /* 调整图片以填充整个背景 */
+}
+nav{
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(241, 41, 108);
+}
+.naver_1{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ul{
+    margin-top: 0px;
+    padding-inline-start: 0%;/* 列表内部起始内边距 */
+}
+.naver_1>ul>li{
+    float: left;/* 左浮动 */
+    list-style: none;/* 列表样式：无 */
+    text-align: center;/* 文字居中 */
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 黑体;
+}
+a{
+    color: white;
+    text-decoration: none;/* 去除链接下划线 */
+}
+ul>li>a:active{
+    color: aqua;/* 导航链接在活动状态下的文字颜色为浅蓝色 */
+}
+ul>li:hover{
+    background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
+}
+form {
+    margin: 20px auto;
+	display: table;/* 设置为表格布局 */
+	padding: 10px;
+    border-color: rgb(138, 70, 239);
+    border-width: 5px;/* 边框宽度为5像素 */
+    border-style: dotted;/* 边框样式为虚线 */
+    border-radius: 15px;/* 边框圆角半径为15像素 */
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;/* 设置为表格行 */
+}
+
+div.tableRow p {
+	display: table-cell;/* 设置为表格单元格 */
+	vertical-align: top;/* 垂直对齐方式为顶部对齐 */
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;/* 文本右对齐 */
+}
+p.heading {
+	font-weight: bold;/* 字体加粗 */
+}
+
+footer {
+    color:            #7083f3;
+    text-align:       center;/* 文本内容居中对齐 */
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;/* 字体大小为当前字体大小的90% */
+}

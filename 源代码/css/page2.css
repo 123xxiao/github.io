@@ -1,0 +1,134 @@
+body{
+    background-image: url(../images/微信图片_20240614163501.jpg);
+    opacity: 0.9; /* 背景图片的透明度 */
+    /* 背景图片的位置和大小 */
+    background-size: cover; /* 背景图片覆盖整个区域 */
+    
+}
+
+nav{
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(241, 41, 108);
+}
+
+.naver_1{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;/* 左侧自动边距 */
+    margin-right: auto;/* 右侧自动边距 */
+
+}
+
+ul{
+    margin-top: 0px;
+    padding-inline-start: 0%;/* 列表内部起始内边距 */
+}
+.naver_1>ul>li{
+    float: left;/* 左浮动 */
+    list-style: none;/* 列表样式：无 */
+    text-align: center;/* 文字居中 */
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 20px;/* 字体大小 */
+    font-family: 黑体;/* 字体为黑体 */
+}
+a{
+    color: white;
+    text-decoration: none;/* 去除链接下划线 */
+}
+ul>li>a:active{
+    color: aqua;/* 导航链接在活动状态下的文字颜色为浅蓝色 */
+}
+ul>li:hover{
+    background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
+}
+p{
+    color: rgb(18, 34, 94);
+    font-size: 130%;/* 字体大小 */
+    font-style: oblique;/* 字体样式，斜体 */
+    font-weight: 600;/* 字体粗细 */
+    text-decoration: underline;/* 文字下划线 */
+}
+h1{
+    color: rgb(244, 136, 136);
+    font-size: 200%;
+    font-style: italic;/* 字体样式，斜体 */
+    font-weight: bold;/* 字体粗细 */
+}
+h2{
+    font-size: 120%;/* h2字体大小 */
+    font-weight: 600;/* 字体粗细 */
+
+}
+
+div#header_1{
+    margin-top: 30px;
+    text-align: center;/* 文字居中 */
+}
+
+
+div#journal{
+    border-color: rgb(138, 70, 239);
+    border-width: 5px;/* 边框宽度为5像素 */
+    border-style: dotted;/* 边框样式为点状 */
+    border-radius: 15px;/* 边框圆角为15像素 */
+    width: 900px;
+    margin: 0 auto; 
+    height: 1500px;
+    
+}
+div#album{
+    text-align: center; /* 文字居中 */
+}
+.content{
+    width: 900px;
+    height: 350px;
+    display: flex; /* 使用 Flex 布局 */
+    
+}
+div#journal_1{
+
+    width: 400px;
+    background-size: cover;/* 背景图片覆盖整个区域 */
+    background-image: url(../images/微信图片_20240614165638.jpg);
+    margin: 40px; 
+
+}
+
+.word_1{
+    width: 400px;
+    flex: 0 0 auto; /* 固定宽度 */
+    margin-left: 20px;
+}
+.word_1 h2:first-of-type {
+    margin-top: 3em; /* 添加 1em 的顶部外边距 */
+}
+
+
+div#journal_2{
+    width: 400px;
+    background-size: cover;/* 背景图片覆盖整个区域 */
+    background-image: url(../images/微信图片_20240605151729.jpg);
+    margin: 40px; 
+}
+div#journal_3{
+    width: 400px;
+    background-size: cover;/* 背景图片覆盖整个区域 */
+    background-image: url(../images/微信图片_20240605151723.jpg);
+    margin: 40px; 
+}
+div#journal_4{
+    width: 400px;
+    background-size: cover;/* 背景图片覆盖整个区域 */
+    background-image: url(../images/微信图片_20240614173521.jpg);
+    margin: 40px; 
+}
+footer {
+    color:            #7083f3;
+    text-align:       center;/* 文本内容居中对齐 */
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;/* 字体大小为当前字体大小的90% */
+}

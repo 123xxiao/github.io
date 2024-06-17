@@ -1,0 +1,106 @@
+body{
+    
+    background-image: url(../images/微信图片_20240614163501.jpg);
+    opacity: 0.9; /* 背景图片的透明度 */
+    /* 背景图片的位置和大小 */
+    background-size: cover; /* 背景图片覆盖整个区域 */
+    
+}
+h1{
+    color: rgb(250, 249, 249);
+    font-size: 300%;
+    font-style: italic;/* 标题文字为斜体 */
+}
+h2{
+    color: rgb(249, 129, 129);
+    font-size: 300%;
+    font-style: italic;/* 标题文字为斜体 */
+}
+p{
+    font-size: 150%;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+header#top{
+    height: 250px;
+    background-image: url(../images/微信图片_20240604192425.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: center;
+    background-size: 100% 100%;
+    display: flex; /* 使用弹性布局 */
+    align-items: center;/* 垂直居中头部内容 */
+    justify-content: center;/* 水平居中头部内容 */
+
+}
+
+nav{
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(241, 41, 108);
+}
+.naver_1{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ul{
+    margin-top: 0px;
+    padding-inline-start: 0%;
+}
+.naver_1>ul>li{
+    float: left;/* 左浮动 */
+    list-style: none;/* 去除列表项的默认样式 */
+    text-align: center;/* 文字居中显示 */
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 20px;/* 文字大小为20像素 */
+    font-family: 黑体;/* 字体为黑体 */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul>li>a:active{
+    color: aqua;/* 导航链接在活动状态下的文字颜色为浅蓝色 */
+}
+ul>li:hover{
+    background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
+}
+div#home{
+    margin-top: 20px;
+    border-color: rgb(138, 70, 239);
+    border-width: 5px;/* 边框宽度为5像素 */
+    border-style: dotted;/* 边框样式为点状 */
+    border-radius: 15px;/* 边框圆角为15像素 */
+    width: 1200px;
+    margin-left: auto;/* 左侧自动外边距为自动，实现居中 */
+    margin-right: auto; /* 右侧自动外边距为自动，实现居中 */
+    height: 600px;
+}
+div#photo{
+    width: 400px;
+    height: 500px;
+    background-image: url(../images/微信图片_20240604202349.jpg);
+    margin: 35px 10px 35px 50px;/* 图片区域的外边距 */
+    float: left;/* 左浮动 */
+}
+
+div#home_1{
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+    text-align: center;/* 子区域内容居中显示 */
+    float: right;/* 右浮动 */
+}
+footer {
+    color:   #7083f3 ;
+    text-align:       center;/* 文本内容居中对齐 */
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;/* 字体大小为当前字体大小的90% */
+}

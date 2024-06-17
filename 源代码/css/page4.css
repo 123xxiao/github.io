@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/微信图片_20240614163501.jpg);
+    opacity: 0.9;/* 设置背景图片的透明度 */
+    background-size: cover; /* 调整图片以填充整个背景 */
+    
+}
+nav{
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(241, 41, 108);
+}
+.naver_1{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;/* 左侧自动边距 */
+    margin-right: auto;/* 右侧自动边距 */
+
+}
+ul{
+    margin-top: 0px;
+    padding-inline-start: 0%;/* 列表内部起始内边距 */
+}
+.naver_1>ul>li{
+    float: left;/* 左浮动 */
+    list-style: none;/* 列表样式：无 */
+    text-align: center;/* 文字居中 */
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    font-size: 20px;/* 字体大小 */
+    font-family: 黑体;/* 字体为黑体 */
+}
+a{
+    color: white;
+    text-decoration: none;/* 去除链接下划线 */
+}
+ul>li>a:active{
+    color: aqua;/* 导航链接在活动状态下的文字颜色为浅蓝色 */
+}
+ul>li:hover{
+    background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
+}
+table{
+    border: 3px rgb(44, 1, 59) solid;
+    width: 750px;
+    height: 950px;
+    caption-side: top;/* 表格标题位置在顶部 */
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+caption {
+    font-size: 20px;
+    font-weight: bold;/*字体加粗 */
+    margin-bottom: 10px;
+  }
+td{
+    border: 2px rgb(32, 0, 39) solid;
+    padding: 10px;
+    width: 100px;
+    font-weight: 600;
+}
+
+b,p{
+    font-weight: 600;
+}
+
+
+footer {
+    color:            #7083f3;
+    text-align:       center;/* 文本内容居中对齐 */
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;/* 字体大小为当前字体大小的90% */
+}
+
+
+
